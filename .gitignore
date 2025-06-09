@@ -1,0 +1,14 @@
+# macOS metadata
+.DS_Store
+
+# Node dependencies
+node_modules/
+
+# Storybook logs
+storybook.log
+
+# Build outputs
+storybook-static/
+
+# Editor/project files you don’t want tracked
+.env
