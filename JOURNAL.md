@@ -12,3 +12,8 @@
 - What I did: initialized Storybook in the project, configured it for React/webpack5, wrote `badge/Badge.stories.jsx`, updated `Badge.jsx` to accept `size`, and loaded the stories successfully.
 - Can I do it blind? (Try running `npm run storybook`—does it spin up without errors and show your badge?)
 - Can I explain it? (Describe how Storybook’s `stories` array controls which folders it scans and why we updated it to `../badge/**/*.stories.@(js|jsx|mjs|ts|tsx)`.)
+
+## Step 4 — June 9, 2025
+- What I did: created `tokens/tokens.json`, wrote `build-tokens.js` to generate CSS custom properties, added `build:tokens` script, ran it to produce `tokens/tokens.css`.
+- Can I do it blind? (Try `npm run build:tokens` from scratch and inspect `tokens.css`.)
+- Can I explain it? (Describe how the JSON → CSS converter maps keys to `--variable` names.)
